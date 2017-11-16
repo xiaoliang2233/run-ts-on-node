@@ -5,7 +5,7 @@ const path = require('path');
 const ts = require('typescript');
 Error.stackTraceLimit = Infinity;
 
-const compilerOptions = JSON.parse(fs.readFileSync(path.join(__dirname, './tsconfig.json')))['compilerOptions'];
+const compilerOptions = JSON.parse(fs.readFileSync(path.join(__dirname, '../tsconfig.json')))['compilerOptions'];
 
 require.extensions['.ts'] = function (module, filename) {
 	const source = fs.readFileSync(filename).toString();
