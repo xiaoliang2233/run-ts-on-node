@@ -1,2 +1,2 @@
-require('./libs/bootstrap-local');
+require('./libs/bootstrap-typescript');
 require('./src/index');
