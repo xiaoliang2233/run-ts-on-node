@@ -1,0 +1,15 @@
+{
+  "name": "node-ts-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "wangxiaoliang <xiaoliang2233@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "typescript": "^2.6.1"
+  }
+}
