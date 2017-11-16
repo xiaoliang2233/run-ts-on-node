@@ -9,7 +9,9 @@
   "author": "wangxiaoliang <xiaoliang2233@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "@types/node": "^8.0.53",
     "chalk": "^2.3.0",
+    "mkdirp": "^0.5.1",
     "typescript": "^2.6.1"
   }
 }

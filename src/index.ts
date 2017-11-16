@@ -1,5 +1,7 @@
 process.title = 'baoqin';
 
-const yellow = require('chalk').yellow;
+import chalk from "chalk"
 
-console.log(yellow('你好呀, typescript');
+const yellow = chalk.yellow;
+
+console.log(yellow('你好呀, typescript'));

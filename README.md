@@ -10,3 +10,7 @@ npm install
 node index.js
 
 然后会看到 hello typescript黄色字样, 成功了!
+
+### 编译成什么样子了?
+
+我在遇见ts文件的时候编译后的文件写到dist文件夹下了...可以去看一看
